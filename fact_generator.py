@@ -3,6 +3,7 @@
 import random
 
 # You can expand or replace this list with GPT-generated facts later
+# (This short list was given to me by ChatGPT)
 FUN_FACTS = [
     "Neutron stars can spin 600 times per second! 💫",
     "A day on Venus is longer than a year on Venus. 😮",
