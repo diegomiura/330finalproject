@@ -9,6 +9,12 @@ st.set_page_config(page_title="Daily Astro Fun Fact ✨")
 
 st.title("🚀 Astronomy Fun Fact of the Day")
 st.markdown("Welcome! Get your daily dose of astronomy fun facts here.")
+
+st.sidebar.title("🔐 Hugging Face API")
+hf_token_input = st.sidebar.text_input("Enter your Hugging Face API token:", type="password")
+if hf_token_input:
+    st.session_state["hf_token"] = hf_token_input
+
 # Toggle to choose fact source: GPT-based if checked, otherwise hard-coded
 use_gpt = st.checkbox("Use GPT-based fact generation", value=False)
 
