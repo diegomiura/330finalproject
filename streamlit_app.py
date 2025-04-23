@@ -19,7 +19,7 @@ today = str(date.today())
 # Display NASA's Astronomy Picture of the Day (APOD)
 def display_apod_image():
     apod_url = "https://api.nasa.gov/planetary/apod"
-    params = {"api_key": "DEMO_KEY"}  # Replace with your actual key if available
+    params = {"api_key": "7KdrpP3kF2S994wWghaER7GssCbrQf6NMJweyYpG"}
     try:
         response = requests.get(apod_url, params=params)
         if response.status_code == 200:
