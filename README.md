@@ -26,16 +26,18 @@ If you wish to post your fun fact to [Reddit](https://www.reddit.com/), you will
 ## How to Run the Streamlit App Locally
 
 1. Clone the repository:
-
    ```bash
    git clone https://github.com/diegomiura/330finalproject.git
+   ```
+2. Enter the directory
+   ```bash
    cd 330finalproject
    ```
-2. Install the dependencies:
+3. Install the dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the app
+4. Run the app
    ```bash
    streamlit run streamlit_app.py
    ```
@@ -43,11 +45,11 @@ If you wish to post your fun fact to [Reddit](https://www.reddit.com/), you will
    Make sure you are in the `330finalproject` directory
    ### Hard-Coded Fact
    ```bash
-   python fact_generator.py
+   python3 fact_generator.py
    ```
    ### GPT Fact
    ```bash
-   python huggingface_fact_generator.py
+   python3 huggingface_fact_generator.py
    ```
    It will ask you to input your hugging face API token. Once you do, hit enter. It will load for a few seconds before outputting the fun fact.
    
